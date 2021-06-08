@@ -1,0 +1,41 @@
+h2 {
+    flex-direction: column;
+    max-width: 40%;
+}
+
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-height: 60%;
+    max-width: 60%;
+    object-fit: cover;
+    border-radius: 10%;
+    border: 5px;
+    border-style: solid;
+    border-color: #50a79f;
+}
+
+main a {
+    text-decoration: underline;
+}
+
+main ul {
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.overview-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

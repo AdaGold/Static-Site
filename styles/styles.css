@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.link-hover {
+    text-decoration: none;
+    color: #323749;
+    transition: all 0.2s linear;
+}
+
+.link-hover:hover, .link-hover:focus {
+    color: #f5f0f1;
+}
+
+a {
+    text-decoration: none;
+    color: #323749;
+}
+
+body {
+    font-family: 'Poppins', 'Arial', sans-serif;
+    color: #323749;
+    background-color: #f5f0f1;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    background-color: #9ebd55;
+    color: #323749;
+    line-height: 0.5em;
+    font-size: 18px;
+}
+
+footer li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 200px;
+}
+
+header {
+    background-color: #9ebd55;
+    color: #323749;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header h1 {
+    font-family: 'Mate SC', serif;
+    padding-left: 20px;
+    font-size: 50px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 10px;
+    width: 500px;
+}
+
+img {
+    max-height: 500px;
+    max-width: 500px;
+}
+
+p {
+    line-height: 1.5em;
+    text-align: justify;
+    max-width: 75%;
+}
+
+section {
+    padding: 20px;
+}
+
+section img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li {
+    list-style-type: none;
+}
